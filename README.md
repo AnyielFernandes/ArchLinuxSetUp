@@ -307,3 +307,11 @@ Auto-switch when new device is plugged:
         HandleLidSwitchDocked=suspend
 
 #### OPTIONAL: batsignal for low battery notifications
+
+### XMENU (https://github.com/phillbush/xmenu)
+#### Edit xmenu/config.h to match your desktop theme colours
+    cd .config/xmenu
+    make 
+    make install
+#### Edit xmenu.sh to create your own menu 
+
